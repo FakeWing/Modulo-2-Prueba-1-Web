@@ -29,8 +29,8 @@ function inicio() {
         messages: {
             rut: {required : "Obligatorio"},
             nombre: {required : "Obligatorio"},
-            email: {required : "Ingrese Email valido"},
-            telefono: {required: "Ingrese un Numero valido"},
+            email: {required : "Ingrese Email valido", email: "Email no valido"},
+            telefono: {required: "Ingrese un Numero valido", range: "Ingrese un numero de celular que inicie en 9"},
 
             opt: {required : "Indiquenos su actividad"},
             consulta: {required: "Indique el tipo de su consulta"},
